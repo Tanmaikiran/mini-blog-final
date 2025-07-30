@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-ruby "3.2.2" # <- MATCH Render's Ruby version
+ruby "3.2.2"
 
 # Rails
 gem "rails", "~> 8.0.2"
@@ -36,6 +36,7 @@ gem "sidekiq"
 group :development, :test do
   gem "debug", platforms: %i[mri mingw x64_mingw]
   gem "rspec-rails"
+  gem "dotenv-rails"  # ✅ Enables use of .env for DATABASE_URL and others
 end
 
 group :development do
