@@ -8,7 +8,7 @@ ruby "3.2.2"
 gem "rails", "~> 8.0.2"
 
 # PostgreSQL
-gem "pg", "~> 1.5"
+gem "pg", "~> 1.6"
 
 # Puma for app server
 gem "puma", "~> 6.0"
